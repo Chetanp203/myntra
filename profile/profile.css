@@ -118,7 +118,7 @@
 }
 #right-inner{
     width: 95%;
-    height: 500px;
+    height: 600px;
     border: 1px solid rgb(212,213,217) ;
     margin-left: 20px;
     margin-top: 20px;
@@ -126,18 +126,40 @@
 #r-in{
     width: 60%;
     height: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-left: 150px;
+    justify-content: space-around;
 }
 #rprofile{
     width: 100%;
     height: 10%;
-    
+}
+#rprofile>h3{
+    border-bottom:solid 1px rgb(212,213,217)  ;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
 
 }
 #details{
-
+      display: flex;
+}
+.int{
+    margin-left: 50px;
+    line-height: 50px;
+}
+#details>div>ul>li{
+    list-style: none;
 }
 #edit{
 
+}
+#edit-btn{
+    width: 85%;
+    margin-left: 50px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: rgb(255,63,108);
+    color: white;
+    border: none;
 }
