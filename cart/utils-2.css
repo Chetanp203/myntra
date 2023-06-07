@@ -1,0 +1,133 @@
+.logo{
+    width: 52px;
+    height: 32px;
+    padding-top: 20px;
+}
+.shield{
+    width: 23px;
+    height: 25px;
+    padding-top: 30px;
+    padding-right: 5px;
+}
+.secure{
+    padding-bottom: 90px;
+}
+.d-1{
+    width: 100%;
+    height: 13%;
+    border: 1px solid rgb(105, 110, 110);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.d-2{
+    width: 100%;
+    height: 20%;
+    border: 1px solid rgb(105, 110, 110);
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+.d-3{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.d-4{
+    width:100% ;
+    height: 33%;
+    border: 1px solid rgb(105, 110, 110);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.d-5{
+    width: 100%;
+    height: 10%;
+    border: 1px solid rgb(105, 110, 110);
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.c-d{
+    width: 140px;
+    background-color: white;
+    color:rgb(255,63,108) ;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: small;
+    border: 1px solid rgb(255,63,108);
+}
+.texts{
+    margin-left: 10px;
+}
+.c-box{
+    background-color:rgb(255,63,108) ;
+    color: white;
+}
+.d-3>div:nth-child(1){
+    padding-top: 20px;
+}
+.d-3>div:nth-child(2){
+    padding-left: 200px;
+    padding-top: 10px;
+}
+.product{
+    width: 125px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.apply{
+    width: 80px;
+    background-color: white;
+    color:rgb(255,63,108) ;
+    height: 35px;
+    margin-top: 5px;
+    border-radius: 5px;
+    /* margin-left: 5px; */
+    font-size: small;
+    border: 1px solid rgb(255,63,108);
+}
+.m-1{
+    display: flex;
+    justify-content: space-around;
+}
+.gift{
+    width: 90%;
+    height: 100px;
+    /* border: 1px solid black; */
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color:rgb(255,241,236) ;
+    display: flex;
+}
+.gift2{
+    width: 20%;
+    height: 100%;
+}
+.m-3-in{
+    display: flex;
+}
+.m-3-in>div>ul>li{
+    list-style: none;
+    line-height: 25px;
+}
+.order{
+    width: 90%;
+    background-color: rgb(255,63,108);
+    color:white ;
+    height: 35px;
+    border-radius: 5px;
+    /* margin-left: 5px; */
+    font-size: small;
+    border: none;
+    margin-left: 20px;
+    
+}
